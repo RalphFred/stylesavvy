@@ -81,7 +81,7 @@ export default function Footer() {
           <span className="mb-2">Contact</span>
         </div>
       </div>
-      <span className="text-gray-400 absolute bottom-4 w-full text-center text-sm lg:text-base">&copy; Copyright StyleSavvy 2024. All right reserved</span>
+      <span className="text-gray-400 absolute bottom-4 left-[50%] translate-x-[-50%] text-sm lg:text-base">&copy; Copyright StyleSavvy 2024. All right reserved</span>
     </section>
   );
 }
