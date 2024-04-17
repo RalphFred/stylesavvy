@@ -16,7 +16,7 @@ export default function MobileNav() {
   };
 
   return (
-    <nav className="flex lg:hidden justify-between px-4 py-2 relative ">
+    <nav className="flex lg:hidden justify-between px-4 md:px-12 py-2 relative ">
       <Link href="/">
         <Image
           src="/images/logo.png"
@@ -47,7 +47,7 @@ export default function MobileNav() {
         }`}
       >
         <div className="w-4/5 h-full bg-white">
-          <div className="h-[71.31px] pr-4 flex justify-end items-center" onClick={CloseMenu}>
+          <div className="h-[71.31px] pr-4 md:pr-12 flex justify-end items-center" onClick={CloseMenu}>
             <Image src="/images/close.svg" alt="menu" width={25} height={25} />
           </div>
         </div>
