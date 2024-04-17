@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="px-16 py-2 hidden lg:flex justify-between items-center">
+    <div className="px-32 py-2 hidden lg:flex justify-between items-center">
       <Link href="/" className=" flex items-center">
         <Image
           src="/images/logo.png"
