@@ -35,3 +35,26 @@ export const categories = [
     categoriesUrl: ''
   }
 ]
+
+export const newArrivals = [
+  {
+    name: 'Stylish blue plaid shirt for men',
+    price: 15000,
+    img1: '/images/tops.png'
+  },
+  {
+    name: 'Designer blue handbag with silver zip',
+    price: 21000,
+    img1: '/images/bag.png'
+  },
+  {
+    name: 'Zara 1489 loafers black',
+    price: 71000,
+    img1: '/images/shoe.png'
+  },
+  {
+    name: 'Cargo pants',
+    price: 18000,
+    img1: '/images/cargos.png'
+  },
+]

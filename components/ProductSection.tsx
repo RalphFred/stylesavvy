@@ -1,3 +1,4 @@
+import { newArrivals } from "@/constants";
 import ProductCard from "./ProductCard";
 
 export default function ProductSection() {
@@ -11,10 +12,13 @@ export default function ProductSection() {
       </div>
 
       <div className="flex justify-between">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {newArrivals.map((product) => (
+          <ProductCard
+            name={product.name}
+            price={product.price}
+            img1={product.img1}
+          />
+        ))}
       </div>
     </div>
   );
