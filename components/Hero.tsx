@@ -28,8 +28,8 @@ export default function Hero() {
         className="lg:h-[calc(100vh-90px)]"
       >
         {
-          heroImages.map((image) => (
-            <SwiperSlide>
+          heroImages.map((image, index) => (
+            <SwiperSlide key={index}>
               <Image 
                 src={image.imgUrl}
                 alt={image.description}

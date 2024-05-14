@@ -4,6 +4,8 @@ export interface ProductCardProps{
   img1: string;
 }
 
+
+
 export interface AllProductsProps{
   name: string;
   price: number;
